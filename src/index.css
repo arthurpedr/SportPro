@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+html{
+  scroll-behavior: smooth;
+}
+
+.underline-hover {
+  position: relative;
+  display: inline-block;
+}
+
+.underline-hover:hover {
+  color:#155dfc;
+}
+
+.underline-hover::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: -50%;
+  height: 3px;
+  background-color: #155dfc; /* Cor padrão */
+  transition: all 0.6s ease;
+  transform: translateX(-50%); /* Centraliza o underline */
+}
+
+.underline-hover:hover::after {
+  width: 100%;
+  left: 0;
+  transform: none; /* Remove a centralização ao hover */
+}
