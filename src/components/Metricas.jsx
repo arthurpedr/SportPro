@@ -1,5 +1,5 @@
 const stats = [
-  { id: 1, name: 'clientes satisfeitos', value: '+44' },
+  { id: 1, name: 'clientes satisfeitos', value: '+50' },
   { id: 2, name: 'produtos disponíveis', value: '+125' },
   { id: 3, name: 'vendas realizadas', value: '+88' },
   { id: 4, name: 'faturamento', value: '+R$ 1200' },

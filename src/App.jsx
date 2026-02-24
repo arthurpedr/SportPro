@@ -1,6 +1,10 @@
 import Header from "./layout/header";
 import Inicio from "./pages/inicio/index";
 import Metricas from "./components/Metricas";
+import Produtos from "./pages/produtos/index";
+import Ofertas from "./pages/ofertas/index";
+import Testemunhos from "./components/CardsClientes";
+import Footer from "./layout/Footer";
 
 function App() {
   
@@ -10,6 +14,10 @@ function App() {
       <Header />
       <Inicio />
       <Metricas />
+      <Produtos />
+      <Ofertas />
+      <Testemunhos />
+      <Footer />
     </main>
   )
 }
