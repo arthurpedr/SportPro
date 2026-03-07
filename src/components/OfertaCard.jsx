@@ -1,11 +1,11 @@
 const imageColumns = [
   [
     {
-      src: "https://tailwindcss.com/plus-assets/img/ecommerce-images/home-page-03-hero-image-tile-01.jpg",
+      src: "https://down-br.img.susercontent.com/file/sg-11134201-22100-yxhj6wc2t4iv36.webp",
       hiddenOnSm: true,
     },
     {
-      src: "https://tailwindcss.com/plus-assets/img/ecommerce-images/home-page-03-hero-image-tile-02.jpg",
+      src: "https://down-br.img.susercontent.com/file/sg-11134201-7rdxs-lyruz9eghs0700.webp",
     },
   ],
   [
@@ -13,15 +13,15 @@ const imageColumns = [
       src: "https://tailwindcss.com/plus-assets/img/ecommerce-images/home-page-03-hero-image-tile-03.jpg",
     },
     {
-      src: "https://tailwindcss.com/plus-assets/img/ecommerce-images/home-page-03-hero-image-tile-04.jpg",
+      src: "https://down-br.img.susercontent.com/file/sg-11134201-7rdwv-m166qhglffcw83.webp",
     },
     {
-      src: "https://tailwindcss.com/plus-assets/img/ecommerce-images/home-page-03-hero-image-tile-05.jpg",
+      src: "https://down-br.img.susercontent.com/file/cn-11134207-7ras8-mdfvqt90jm5v49.webp",
     },
   ],
   [
     {
-      src: "https://tailwindcss.com/plus-assets/img/ecommerce-images/home-page-03-hero-image-tile-06.jpg",
+      src: "https://down-br.img.susercontent.com/file/br-11134207-81ztc-mj1hrcpkdxq96c.webp",
     },
     {
       src: "https://tailwindcss.com/plus-assets/img/ecommerce-images/home-page-03-hero-image-tile-07.jpg",

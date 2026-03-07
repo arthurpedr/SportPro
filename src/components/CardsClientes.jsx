@@ -29,13 +29,13 @@ const reviews = [
     id: 1,
     rating: 5,
     comment:
-      "Produtos de excelente qualidade! O tênis de corrida superou minhas expectativas.",
+      "Produtos de excelente qualidade! A meia antiderrapante superou minhas expectativas.",
     author: "Ana Silva",
     date: "Há 2 dias",
   },
   {
     id: 2,
-    rating: 4,
+    rating: 5,
     comment: "Entrega rápida, produto de qualidade! Recomendo a todos.",
     author: "Carlos Mendes",
     date: "Há 5 dias",
@@ -43,7 +43,7 @@ const reviews = [
   {
     id: 3,
     rating: 5,
-    comment: "Atendimento excelente e produto chegou antes do prazo previsto.",
+    comment: "Atendimento excelente meu produto chegou antes do prazo previsto.",
     author: "Juliana Costa",
     date: "Há 1 semana",
   },

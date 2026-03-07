@@ -1,8 +1,8 @@
 const stats = [
-  { id: 1, name: 'clientes satisfeitos', value: '+50' },
+  { id: 1, name: 'clientes satisfeitos', value: '+800' },
   { id: 2, name: 'produtos disponíveis', value: '+125' },
-  { id: 3, name: 'vendas realizadas', value: '+88' },
-  { id: 4, name: 'faturamento', value: '+R$ 1200' },
+  { id: 3, name: 'vendas realizadas', value: '+1000' },
+  { id: 4, name: 'faturamento', value: '+$10.000' },
 ]
 
 export default function Stats() {

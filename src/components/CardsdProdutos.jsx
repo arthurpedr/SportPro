@@ -13,7 +13,7 @@ export default function CardsdProdutos({
   return (
     <div className="w-100 rounded-2xl bg-white hover:shadow-xl overflow-hidden transition-shadow duration-300 border border-gray-300">
       {/* Imagem */}
-      <div className="relative bg-pink-400 p-4">
+      <div className="relative bg-pink-400">
         {discount && (
           <span className="absolute top-3 left-3 rounded-full bg-red-500 px-3 py-1 text-xs font-semibold text-white">
             {discount}
@@ -23,7 +23,7 @@ export default function CardsdProdutos({
         <img
           src={image}
           alt={title}
-          className="mx-auto h-44 object-contain"
+          className="object-contain object-center hover:scale-110 transition-transform duration-300"
         />
       </div>
 
@@ -60,7 +60,7 @@ export default function CardsdProdutos({
         </div>
 
         {/* Botão */}
-        <button className="mt-3 flex w-full items-center justify-center gap-2 rounded-lg bg-blue-600 py-3 text-white font-medium transition hover:bg-blue-700">
+        <button className="mt-3 flex w-full items-center justify-center gap-2 rounded-lg bg-blue-600 py-3 text-white font-medium transition hover:bg-blue-700 cursor-pointer">
           <ShoppingCart size={18} />
           Adicionar ao Carrinho
         </button>
