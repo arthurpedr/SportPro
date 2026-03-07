@@ -1,4 +1,4 @@
-import Header from "./layout/header";
+import Header from "./layout/Header";
 import Inicio from "./pages/inicio/index";
 import Metricas from "./components/Metricas";
 import Produtos from "./pages/produtos/index";
