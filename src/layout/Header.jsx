@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from "react";
 import { LuTrendingUp } from "react-icons/lu";
 import { FaMagnifyingGlass } from "react-icons/fa6";
 import { FiShoppingCart } from "react-icons/fi";
-import Button from "../components/button.jsx";
+import Button from "../components/Button";
 import { Menu, X } from "lucide-react";
 
 function Header() {
